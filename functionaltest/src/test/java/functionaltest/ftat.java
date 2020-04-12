@@ -22,6 +22,7 @@ public class ftat {
 	//public String URL1 = "http://localhost:8080/AVNCommunication-1.0/avncreatepage.jsp";
 	 
 	 
+	//To validate login functionality
 	@Test(priority = 0)
 	public void logintest() {
 		driver = new HtmlUnitDriver();
