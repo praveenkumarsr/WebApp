@@ -43,6 +43,7 @@ public class ftat {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 
+	//Test to test the application
 	@Test(priority = 1)
 	public void viewrepairticket() throws Exception {
 		WebElement welcome = wait.until(ExpectedConditions
