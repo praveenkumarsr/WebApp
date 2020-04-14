@@ -68,6 +68,7 @@ public class ftat {
 		repair1.isDisplayed();
 	}
 
+	//Another test to validate
 	@Test(priority = 2)
 	public void createrepairticket() {
 		driver.findElement(By.className("btn")).click();
